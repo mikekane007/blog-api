@@ -14,4 +14,4 @@ Tools and Libs
 3. Mongoose for MongoDB modeling
 4. JWT
 5. bcrypt
-Validator.js or Joi
+6. Validator.js or Joi
