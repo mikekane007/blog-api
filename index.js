@@ -7,7 +7,7 @@ connectDB();
 
 const app = express();
 
-app.use(exxpress.json()); //Middleware
+app.use(express.json()); //Middleware
 
 app.use('/api/users', require('./routes/userRoutes')); //Routes
 app.use('/api/posts', require('./routes/postRoutes')); //Routes
